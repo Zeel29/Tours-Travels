@@ -1,0 +1,309 @@
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Dancing+Script&family=Montserrat:wght@300;400;500;600;700&family=Mulish:wght@200&family=Poppins:wght@100;200;400&family=Quicksand:wght@300&family=Raleway:wght@300&family=Roboto:wght@300&family=Satisfy&family=Ubuntu:wght@700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Dancing+Script&family=Merriweather:wght@300&family=Montserrat:wght@300;400;500;600;700&family=Mulish:wght@200&family=Poppins:wght@100;200;400&family=Quicksand:wght@300&family=Raleway:wght@300&family=Roboto+Slab:wght@300&family=Roboto:wght@300&family=Satisfy&family=Ubuntu:wght@700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Dancing+Script&family=Montserrat:wght@300;400;500;600;700&family=Mulish:wght@200&family=Poppins:wght@100;200;400&family=Quicksand:wght@300&family=Raleway:wght@300&family=Roboto:wght@300&family=Satisfy&family=Ubuntu:wght@700&display=swap);
+body{
+margin: 0;
+padding: 0;
+width:100%;
+height: 100%;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+background-color:rgba(139, 211, 255, 0.457) ;
+}
+
+.content{
+padding: 0;
+margin:0;
+background-image: url('wall.jpg');
+background-size: cover;
+background-size: 100% 100%;
+background-repeat: no-repeat;
+/* opacity: 0.92; */
+height:550px;
+}
+
+.nav-div {
+width: 100%;
+/* height: 13%; */
+background-color: white;
+}
+
+.nav {
+height: 60px;
+color: black;
+display: flex; 
+justify-content: center;
+align-items:center;
+margin-left: 5%;
+
+}
+
+.nav a:hover{ 
+background-color: whitesmoke;
+}
+
+.nav a{
+padding : 10px;
+/* display : flex; */
+margin : 10px 10px 10px 10px ;
+justify-content: center;
+align-items: center;
+border:1px solid transparent;
+font-size: 0.9rem;
+}
+
+.page{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.heaad{
+font-size: 2rem;
+color:white;
+margin-top: 18%;
+
+}
+
+.small{
+font-family: 'Dancing Script', cursive;
+font-weight: 500;
+font-size: 1rem;
+text-align: center;
+display: flex;
+justify-content: center;
+margin: 15px;
+}
+
+
+.hr{
+height: 1.5px;
+width: 120px;
+background-color:  white;    
+margin-top: 10px;
+margin: 11px;
+}
+
+.dates{
+background-color: white;
+height:100px;
+width:69%;
+display: flex;
+justify-content: space-evenly;
+margin-left: 16%;
+margin-top: -45px;
+border-radius: 10px;
+box-shadow: 1px 1px 25px rgb(62, 62, 62);
+font-family: 'Merriweather', serif;
+}
+
+.check{
+margin:10px;
+color: black;  
+}
+
+.check b{
+font-size: 0.8rem;
+color: black;  
+}
+
+.cdate{
+margin-top: 10px;
+width:110px; 
+height:39px;
+border-radius: 5px;
+border-color:  rgba(238, 106, 18, 0.987);
+border-width: 1.3px;
+font-size: 0.7rem;
+box-shadow: 0px 0px 4px   rgba(238, 106, 18, 0.987);
+}
+
+.cdate:click{
+border:  rgba(238, 106, 18, 0.987);
+}
+
+.guest{
+margin:10px;
+color:black;
+}
+
+.guest b{
+font-size: 0.8rem;
+color: black;  
+}
+
+.form-select{
+margin-top: 11px;
+color:black;
+border-radius: 5px;
+border-color:  rgba(238, 106, 18, 0.987);
+border-width: 1.3px;
+box-shadow: 0px 0px 3px   rgba(238, 106, 18, 0.987);
+width:4rem;
+appearance: none;
+}
+
+.form-select:after{
+background-color: transparent; /* or any color you prefer */
+border: none;
+outline: none;
+box-shadow: none;
+
+}
+
+.register{
+display: flex ;
+justify-content : center;
+align-items:center;
+margin-top: 25px;   
+/* margin-left: 10px;      */
+
+}
+
+.register button{
+background-color:  rgba(238, 106, 18, 0.987);
+padding-top: 9px;
+padding-bottom: 9px;
+padding-left: 29px;
+padding-right: 30px;
+font-size: 0.8rem;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+border:1px solid rgba(238, 106, 18, 0.987);
+border-radius: 5px;
+color:whitesmoke;
+}
+
+.register button:hover{
+background-color: white;
+color:  rgba(238, 106, 18, 0.987);
+transition:0.4s;
+border:1px solid rgba(238, 106, 18, 0.987);
+}
+
+.name {
+font-weight: 600;
+font-family: 'Merriweather', serif;
+font-size: 1.5rem;
+text-align: center;
+margin: 15px;
+}
+
+.footers{
+height:100%;
+width: 100%;
+/* background-color:rgba(139, 211, 255, 0.457) ; */
+}
+
+.images{
+width:100%;
+height:100%;
+/* background-color: cadetblue; */
+/* background-color: rgba(139, 211, 255, 0.457) ; */
+display:block;
+/* justify-content: space-between; */
+
+}
+
+.cards{
+margin:10px;
+margin-bottom: 20px;
+width:98%;
+height:98%;
+display: flex;
+/* background-color:aquamarine ; */
+background-color: white;
+padding: 15px;
+border-radius: 6px;
+}
+
+.cards:hover{
+/* background-color: rgba(139, 211, 255, 0.457) ; */
+background-color:aliceblue;
+.details{
+    background-color: white;
+}
+}
+
+.imgs{
+width:20%;
+text-align: center;
+
+}
+
+.imgs img {
+border-radius: 5px;
+width:100%;
+height:100%;
+}
+
+.resort{
+margin-left : 18px;
+padding: 2px;
+color: black;
+width:40%;
+}
+
+.resort b{
+font-size: 1.2rem;
+color: dodgerblue;
+}
+
+.resort i{
+margin-bottom: 5px;
+font-size: 1rem;
+color:black;
+padding: 3px;
+}
+
+.resort span{
+font-size: 0.9rem;
+opacity: 0.9;
+}
+
+.details
+{
+background-color: aliceblue;
+margin: 5px;
+display:grid ;
+padding:5px;
+border-radius: 5px;
+}
+.details span{
+font-size: 0.8rem;   
+}
+
+.details span i{
+    color: dodgerblue;
+}
+
+.resort b i{
+top:-5px;
+font-size: 0.8rem;
+color: #EAC612;
+}
+
+
+
+.price{
+display: flex;
+/* align-items; */
+position:absolute;
+right: 35px;
+/* margin-left:26rem;   */
+}
+
+.good
+{
+font-size: 0.7rem;
+text-align: right;
+}
+.good span{
+font-size: 1.2rem;
+}
+.good p i{
+font-size: 1.3rem;
+}
+.good p span{
+font-size: 1.3rem;
+margin-top: 8px;
+font-family: 'Merriweather', serif;
+}

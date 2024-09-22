@@ -1,0 +1,20 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.enter{
+    justify-content: center;
+    align-items: center;
+}
+.box
+{
+    border:0.1rem solid black;
+    border-radius: 1rem;
+    padding : 1rem;
+    margin: 0rem 30rem 0rem 30rem;
+}
+.info
+{
+    padding: 1rem;
+}

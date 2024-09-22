@@ -1,0 +1,240 @@
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@300;400;500;600;700&family=Mulish:wght@200&family=Poppins:wght@100;200;400&family=Quicksand:wght@300&family=Raleway:wght@300&family=Roboto:wght@300&family=Satisfy&family=Ubuntu:wght@700&display=swap);
+body {
+    background-color: rgb(249, 249, 249);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    padding:0;
+    width: 100%;
+}
+.main-content{
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    padding:1rem;
+    height: 620px;
+    padding-top: 1px;
+}
+
+.pc{
+  color:rgb(65, 254, 96);
+  margin-top:2rem;
+  margin-left:1rem;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+  font-size:1.3rem;
+}
+
+.nav-div {
+    margin-top: 0.7rem;
+}
+.nav1 {
+    height: 78px;
+    color: rgb(0, 0, 0);
+    display: flex; 
+    justify-content: start;
+    align-items: start;
+
+}
+.nav {
+    height: 78px;
+    color: rgb(0, 0, 0);
+    display: flex; 
+    justify-content: end;
+    align-items: end;
+    background-color: aliceblue;
+    margin-left: 1rem;
+}
+
+.n-i{
+    text-decoration: none;
+}
+.nav a:hover{ 
+    border:0px solid #000000;
+    border-radius: 25px;
+    backdrop-filter: blur(50px);
+    animation: glowing 10s infinite;
+    /* margin-top: 0.1rem;  */
+}
+@keyframes glowing{
+    0%  {
+      box-shadow: 0 0 10px rgb(255, 255, 255);
+    }
+    25% {
+      box-shadow: 0 0 20px rgb(196, 196, 196);
+    }
+    50% {
+      box-shadow: 0 0 10px rgb(0, 0, 0);
+    }
+    75% {
+      box-shadow: 0 0 10px rgb(187, 187, 187);
+    }
+    100% {
+      box-shadow: 0 0 10px rgb(255, 255, 255);
+    }   
+}
+
+.nav a{
+    padding : 11px;
+    display : flex;
+    margin : 16px;
+    border:1px solid transparent;
+    text-decoration: none;
+}
+
+.main{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5rem;
+    margin-left: 1rem;  
+
+}
+.span {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    color:#000;
+}
+
+.explore{
+    color:rgb(0, 0, 0);
+    font-size: 2.8rem;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.explore-2{
+    color:white;
+    font-size: 1rem;
+    margin-top:0.8rem;
+    font-family: 'Comfortaa', cursive;
+    width:200%;
+    height:4rem;
+}
+
+.form-select:hover{
+    box-shadow: 0 0 10px #000;
+}
+
+.p-detail{
+    padding-right:11rem;
+    border-right:0.01rem solid;
+}
+.p-detail-r{
+    padding-right:11rem;
+}
+.btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    width: 157.8px;
+    height:59.8px;
+    border:none;
+    border-radius:5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: rgba(255, 255, 255, 0.987);
+    background-color:  rgba(238, 44, 18, 0.987);
+    opacity: 0.8;
+}  
+.btn:hover{
+    background-color: rgba(238, 44, 18, 0.987);
+    opacity: 0.9;
+    color:white;
+}
+.hr1{
+        margin: 1rem 0;
+        color: inherit;
+        border: 0;
+        border-top: var(--bs-border-width) solid;
+        opacity: .25;
+        width: 40rem;
+    
+}
+.size{
+    font-size:1rem;
+}
+.size-r{
+    text-align: end;
+    font-size: 1rem;
+}
+.m-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Comfortaa', cursive;
+    margin-top:1rem;
+}
+.details{
+    text-align: left;
+}
+ .total{
+    width:100%;
+    height:4rem;
+    align-items: end;
+    background-color: rgb(222, 222, 222);
+    text-align: end;
+    padding: 0.2rem;
+ }
+.page{
+    margin-top:2rem;
+    font-size:4rem;
+}
+.nav-link a{
+    padding:10px;
+    background-color: aliceblue;
+    text-decoration: none;
+    color:black;
+    cursor: default;
+}
+.nav-link :hover{
+    background-color: white;
+}
+.nav-link  i{
+    color:black;
+    margin-right: 4px;
+    font-size: 0.9rem;
+}
+span{
+    color:white
+}
+.features {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+  
+.card {
+    border-radius: 0%;
+    border: none;
+    background-color: white;
+    width: 230px;
+    padding: 20px;
+    text-align: center;
+    /* box-shadow: 0px 0px 10px rgba(0,0,0,0.1); */
+}
+  
+.card h5 {
+    margin-bottom: 10px;
+}
+
+.card a{
+    text-decoration: none;
+    color:#000000
+}
+.cardlogo{
+    height:50px ;
+}
+.one{
+    height: 55px;
+}
+.card:hover{
+    box-shadow: 20px 20px 16px black;
+    transition: 1s;
+    background-image: url('w2.jpg');
+    background-size: cover;
+    color: aliceblue;
+    font-size:17px;
+}
+
+.card img:hover{
+    transition: 1s;
+    width:100px;
+    height: 75px;
+}

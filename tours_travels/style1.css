@@ -1,0 +1,162 @@
+@import url(https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@300;400;500;600;700&family=Mulish:wght@200&family=Poppins:wght@100;200;400&family=Quicksand:wght@300&family=Raleway:wght@300&family=Roboto:wght@300&family=Satisfy&family=Ubuntu:wght@700&display=swap);
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* background-image: url('image.jpg');
+    background-size: cover;
+    background-size: 100% 130%;
+    background-repeat: no-repeat; */
+    margin:0;
+    padding:0;
+    width: 100%;
+}
+.main-content{
+    background-image: url('w4.jpg');
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin:0;
+    padding:0;
+    height: 620px;
+    padding-top: 1px;
+}
+
+.nav-div {
+    margin-top: 0.7rem;
+    margin-right: 5rem;
+}
+
+.nav {
+    height: 78px;
+    color: white;
+    display: flex; 
+    justify-content: end;
+    align-items: end;
+
+}
+.nav a:hover{ 
+    border:1px solid black;
+    /* margin-top: 0.1rem;  */
+}
+.nav a{
+    padding : 11px;
+    display : flex;
+    margin : 16px;
+    border:1px solid transparent;
+}
+
+.main{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 5rem;
+    margin-left: 8rem;  
+
+}
+.span {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+.explore{
+    color:white;
+    font-size: 2.8rem;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+.explore-2{
+    color:white;
+    font-size: 1rem;
+    margin-top:0.8rem;
+    font-family: 'Comfortaa', cursive;
+}
+.text{
+   margin-top:20px;
+   background-color: white;
+   width: 41.4%;
+   height: 100%;
+   align-items: center;
+   border-radius:5px;
+}
+
+.form-select{
+    display: inline;
+    width:200px;
+    border:none;
+    height:60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    opacity: 0.8;
+    font-size: 0.8rem;
+    margin-left: 4px;
+}
+.btn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    width: 157.8px;
+    height:59.8px;
+    border:none;
+    border-radius:5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    color: rgba(255, 255, 255, 0.987);
+    background-color:  rgba(238, 44, 18, 0.987);
+    opacity: 0.8;
+}  
+.btn:hover{
+    background-color: rgba(238, 44, 18, 0.987);
+    opacity: 0.9;
+    color:white;
+}
+
+.links{
+    font-family: 'Comfortaa', cursive;
+    margin-top:16px;
+}
+.nav-link{
+    margin-top: 17px;
+    color:black;
+}
+.nav-link a{
+    padding:10px;
+    background-color: aliceblue;
+    text-decoration: none;
+    color:black;
+    cursor: default;
+}
+.nav-link :hover{
+    background-color: white;
+}
+.nav-link  i{
+    color:black;
+    margin-right: 4px;
+    font-size: 0.9rem;
+}
+span{
+    color:white
+}
+.features {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -30px;
+}
+  
+.card {
+    border-radius: 0%;
+    border: none;
+    background-color: white;
+    width: 230px;
+    padding: 20px;
+    text-align: center;
+    /* box-shadow: 0px 0px 10px rgba(0,0,0,0.1); */
+}
+  
+.card h2 {
+    margin-bottom: 10px;
+}
+.cardlogo{
+    height:50px ;
+}
+.one{
+    height: 55px;
+}
+.card:hover{
+    box-shadow: 0 8px 16px black;
+    transition: 0.5s;
+}
